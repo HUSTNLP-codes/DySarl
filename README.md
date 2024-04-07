@@ -1,6 +1,6 @@
 # Dynamic Multihop Structure-Aware Reasoning over Multimodal Knowledge Graphs
 
-This is the released codes of the submitted paper.
+This is the released codes of the submitted paper to MM'24.
 
 ## Environment
 
