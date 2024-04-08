@@ -126,9 +126,9 @@ class AttH(BaseH):
         return (res, c), self.bh(queries[:, 0])
 
 
-class MGCN(AttH):
+class DySarl(AttH):
     def __init__(self, args):
-        super(MGCN, self).__init__(args)
+        super(DySarl, self).__init__(args)
         self.device = args.device
         self.n_layers = args.n_layers
         self.en_dropout = args.dropout
