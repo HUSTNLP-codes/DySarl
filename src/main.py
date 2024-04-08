@@ -5,7 +5,7 @@ import torch.optim
 import math
 from utils import *
 import os.path
-from model import MGCN
+from model import DySarl
 from optimizer import *
 import sys
 from config import parser
@@ -62,7 +62,7 @@ def train(args):
         ValueError("WARNING: CUDA is not available!!!")
     args.device = torch.device("cuda:0" if use_cuda else "cpu")
 
-    model = MGCN(args)
+    model = DySarl(args)
     total = count_params(model)
     logging.info("Total number of parameters {}".format(total))
     model.to(args.device)
