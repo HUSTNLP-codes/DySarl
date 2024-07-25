@@ -18,7 +18,7 @@ numpy==1.26.4
 - `src`: Python scripts.
 - `src_data`: Source triplet data of MKGs.
 - `data`: Triplet data of MKGs processed by `src/process_datasets.py`.
-- `pre_train`: Pre-trained auxiliary modal (visual and linguistic) features of MKGs.
+- `pre_train`: Pre-trained auxiliary modal (visual and linguistic) features of MKGs. One can also obtain these pre-trained auxiliary modal features from [OTKGE](https://github.com/Lion-ZS/OTKGE).
 - `results`: Model files to replicate the reported results in our paper.
 
 
