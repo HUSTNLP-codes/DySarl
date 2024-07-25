@@ -18,7 +18,7 @@ numpy==1.26.4
 - `src`: Python scripts.
 - `src_data`: Source triplet data of MKGs.
 - `data`: Triplet data of MKGs processed by `src/process_datasets.py`.
-- `pre_train`: Pre-trained auxiliary modal (visual and linguistic) features of MKGs. One can also obtain these pre-trained auxiliary modal features from [OTKGE](https://github.com/Lion-ZS/OTKGE) (Thanks to their data preprocessing).
+- `pre_train`: Pre-trained auxiliary modal (visual and linguistic) features of MKGs. One can also obtain these pre-trained auxiliary modal features from [OTKGE](https://github.com/Lion-ZS/OTKGE) (Thanks to the data preprocessing).
 - `results`: Model files to replicate the reported results in our paper.
 
 
@@ -43,3 +43,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --model two --dataset WN9IMG --bias learn 
 ```shell
 CUDA_VISIBLE_DEVICES=1 python main.py --model two --dataset FBIMG --bias learn --s-delta-ind --n-head 2 --rank 100 --test
 ```
+
+## Acknowledgements
+
+The source codes take [ReTIN](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12186) as the backbone to implement our proposed method. Please cite both our work and [ReTIN](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12186) if you would like to use our source codes.
