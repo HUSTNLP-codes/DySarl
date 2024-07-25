@@ -4,6 +4,8 @@ This is the released codes of the following paper:
 
 Kangzheng Liu, Feng Zhao, Yu Yang, and Guandong Xu. DySarl: Dynamic Structure-Aware Representation Learning for Multimodal Knowledge Graph Reasoning. MM 2024.
 
+![DySarl](https://github.com/Liudaxian1/FIG/blob/main/DySarl.png)
+
 ## Environment
 
 ```shell
